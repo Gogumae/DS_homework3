@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 struct student1 {
-char lastName;
-int studentId;
-char grade;
+    char lastName;
+    int studentId;
+    char grade;
 };
 
 typedef struct {
-char lastName;
-int studentId;
-char grade;
+    char lastName;
+    int studentId;
+    char grade;
 } student2;
 
 int main() {
